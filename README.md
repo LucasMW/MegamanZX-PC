@@ -11,7 +11,9 @@ https://roystanross.wordpress.com/2015/05/10/custom-character-controller-in-unit
 https://www.gamasutra.com/blogs/YoannPignole/20131010/202080/The_hobbyist_coder_1_2D_platformer_controller.php?print=1
 
 Megaman ZX assets taken from:
+
 http://www.sprites-inc.co.uk/sprite.php?local=ZX/ZX1/ - Sprites
+
 https://www.vg-resource.com/post-624885.html - Sounds
 
 Special thanks to Game Dev League Discord community.
