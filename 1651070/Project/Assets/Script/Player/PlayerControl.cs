@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Prime31;
+using DG.Tweening;
 public class PlayerControl : MonoBehaviour
 {
     // movement config
@@ -46,7 +47,8 @@ public class PlayerControl : MonoBehaviour
     private SoundManager soundManager;
     bool jumpatk;
     bool dashing;
-    bool canCDdash;
+    [HideInInspector]
+    public bool canCDdash;
     public float DashCooldownTimer = 5;
     public GhostEffect ghost;
     bool jumpdashing;
@@ -230,15 +232,7 @@ public class PlayerControl : MonoBehaviour
 
                 wallgrab = true;
                 canCDdash = false;
-                float temp = currentDash - 15f * Time.deltaTime;
-                if (temp > 0)
-                {
-                    currentDash = temp;
-                }
-                else
-                {
-                    currentDash = 0;
-                }
+                currentDash = (currentDash > 0) ? currentDash - 15f * Time.deltaTime : 0;
                 _velocity.x = Mathf.Lerp(_velocity.x, wallDirX * runSpeed, Time.deltaTime * inAirDamping);//grab onto the wall
                 if (transform.localScale.x / 2 != wallDirX)
                 {
@@ -321,20 +315,17 @@ public class PlayerControl : MonoBehaviour
             {
                 var smoothedMovementFactor = _controller.isGrounded ? groundDamping : inAirDamping; // how fast do we change direction?
                 _velocity.x = Mathf.Lerp(_velocity.x, normalizedHorizontalSpeed * runSpeed, Time.deltaTime * smoothedMovementFactor);
+                if(currentDash == 0)
+                {
+                    _animator.SetBool("Dash", false);
+                }else
                 if (Input.GetButton("Fire1") && currentDash > 0 && dashTime >= 0 && (_controller.isGrounded || dashing))
                 {
                     ghost.makeAfterimage = true;
                     dashing = true;
                     canCDdash = false;
-                    float temp2 = currentDash - 15f * Time.deltaTime;
-                    if (temp2 > 0)
-                    {
-                        currentDash = temp2;
-                    }
-                    else
-                    {
-                        currentDash = 0;
-                    }
+                    currentDash = (currentDash > 0) ? currentDash - 15f * Time.deltaTime : 0;
+
                     if (!DashBoostcreated)
                     {
                         DashBoostcreated = true;
@@ -489,7 +480,7 @@ public class PlayerControl : MonoBehaviour
             {
                 if (!wallsliding)
                 {
-                    jumpatk = true;
+                    soundManager.PlaySound("NormAtk1");
                     _animator.SetBool("JumpAtk", true);
                     if (_velocity.y <= 0)
                     {
@@ -502,7 +493,8 @@ public class PlayerControl : MonoBehaviour
         {
             if(_animator.GetBool("DashAtk") && !_controller.isGrounded && !wallsliding)
             {
-                jumpatk = true;
+                _animator.SetBool("DashAtk", false);
+                soundManager.PlaySound("NormAtk1");
                 _animator.SetBool("JumpAtk", true);
                 if (_velocity.y <= 0)
                 {

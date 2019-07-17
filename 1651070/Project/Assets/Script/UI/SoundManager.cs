@@ -19,6 +19,7 @@ public class Sound
         source = _source;
         source.clip = clip;
     }
+
     public void Play()
     {
         source.loop = loop;
@@ -67,7 +68,21 @@ public class SoundManager : MonoBehaviour
             sounds[i].SetSource(_go.AddComponent<AudioSource>());
             _go.transform.parent = this.transform;
         }
-        PlaySound("BGM Forest");
+        PlaySound("BGM 1");
+    }
+    private bool bgm1played = true;
+    void Update()
+    {
+        if (SoundEnded("BGM 1") && bgm1played)
+        {
+            bgm1played = false;
+            PlaySound("BGM 2");
+        }
+        if(SoundEnded("BGM 2") && !bgm1played)
+        {
+            bgm1played = true;
+            PlaySound("BGM 1");
+        }
     }
 
     public void PlaySound(string _name)

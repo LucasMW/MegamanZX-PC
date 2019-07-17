@@ -29,8 +29,6 @@ public class GhostEffect : MonoBehaviour
                 GameObject currentAfterImage = Instantiate(AfterImage, transform.position, transform.rotation);
                 currentAfterImage.transform.localScale = new Vector3(transform.localScale.x, transform.localScale.y, transform.localScale.z);
                 currentAfterImage.GetComponent<SpriteRenderer>().sprite = GetComponent<SpriteRenderer>().sprite;
-                currentAfterImage.GetComponent<PlayerControl>().enabled = false;
-                currentAfterImage.GetComponent<DashEffect>().enabled = false;
             }
         }
     }
