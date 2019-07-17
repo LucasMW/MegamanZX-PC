@@ -1,0 +1,427 @@
+fileFormatVersion: 2
+guid: d3f13deb3c6c84f4985704d95266c570
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7027391701489484749
+    second: zx norm 3rd_0
+  - first:
+      213: -2866891272451905055
+    second: zx norm 3rd_1
+  - first:
+      213: 3268182748703177594
+    second: zx norm 3rd_2
+  - first:
+      213: 5325638616952265823
+    second: zx norm 3rd_3
+  - first:
+      213: -5937292170440344172
+    second: zx norm 3rd_4
+  - first:
+      213: 5660041306223893425
+    second: zx norm 3rd_5
+  - first:
+      213: 8537832521545714424
+    second: zx norm 3rd_6
+  - first:
+      213: 7123497168004036045
+    second: zx norm 3rd_7
+  - first:
+      213: 2264115505135171527
+    second: zx norm 3rd_8
+  - first:
+      213: 5217788836199537047
+    second: zx norm 3rd_9
+  - first:
+      213: 7581749886362334316
+    second: zx norm 3rd_10
+  - first:
+      213: 353629177520259907
+    second: zx norm 3rd_11
+  - first:
+      213: -7426555941424268115
+    second: zx norm 3rd_12
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zx norm 3rd_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 45
+        height: 38
+      alignment: 9
+      pivot: {x: 0.6259236, y: -0.000000050193385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c4a925fb97ee042953d3af689f7051
+      internalID: -7027391701489484749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx norm 3rd_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 5
+        width: 41
+        height: 41
+      alignment: 9
+      pivot: {x: 0.61846495, y: 0.0065813297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681f1486792ec3b45a39c94c0c4fc038
+      internalID: -2866891272451905055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx norm 3rd_2
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 5
+        width: 44
+        height: 42
+      alignment: 9
+      pivot: {x: 0.6211569, y: 0.0030164265}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2916858eaf0c3b94595c9b75db90b0c4
+      internalID: 3268182748703177594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx norm 3rd_3
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 5
+        width: 44
+        height: 43
+      alignment: 9
+      pivot: {x: 0.6193702, y: 0.012550498}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0bbc8d3874aa1438a4e47d7bbf3f00
+      internalID: 5325638616952265823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx norm 3rd_4
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 5
+        width: 80
+        height: 59
+      alignment: 9
+      pivot: {x: 0.3225874, y: 0.063879065}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526056b0eda894243af97b7a3a560f96
+      internalID: -5937292170440344172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx norm 3rd_5
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 5
+        width: 80
+        height: 59
+      alignment: 9
+      pivot: {x: 0.3256809, y: 0.06404584}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd99b21f8bcb1954397390db97394b80
+      internalID: 5660041306223893425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx norm 3rd_6
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 5
+        width: 65
+        height: 59
+      alignment: 9
+      pivot: {x: 0.17399292, y: 0.06329419}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ce8c5804c019341a33aed1bef11770
+      internalID: 8537832521545714424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx norm 3rd_7
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 5
+        width: 65
+        height: 45
+      alignment: 9
+      pivot: {x: 0.17473567, y: 0.08520368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba66a0f36ad733445952659038d21e7b
+      internalID: 7123497168004036045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx norm 3rd_8
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 5
+        width: 35
+        height: 48
+      alignment: 9
+      pivot: {x: 0.3203273, y: 0.10450077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048c0aec4ba02e24c8ae0324a1f39423
+      internalID: 2264115505135171527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx norm 3rd_9
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 5
+        width: 36
+        height: 48
+      alignment: 9
+      pivot: {x: 0.320833, y: 0.12533127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465fb218615177848bf4c818d1023b82
+      internalID: 5217788836199537047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx norm 3rd_10
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 8
+        width: 34
+        height: 40
+      alignment: 9
+      pivot: {x: 0.33813834, y: 0.099157855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952ae5e190baa4e4496a6687562afa20
+      internalID: 7581749886362334316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx norm 3rd_11
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 5
+        width: 38
+        height: 34
+      alignment: 9
+      pivot: {x: 0.4094977, y: 0.018079953}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd89bff0daf1f54c957e887240289d8
+      internalID: 353629177520259907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx norm 3rd_12
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 5
+        width: 33
+        height: 38
+      alignment: 9
+      pivot: {x: 0.3950824, y: 0.022153126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f2191687ffb6f48bb00978e3a0eca1
+      internalID: -7426555941424268115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: af0a2383cf6b48846988e0713d3fd537
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5822082868436163361
+    second: zx run_0
+  - first:
+      213: -4811382402939711888
+    second: zx run_1
+  - first:
+      213: 9206385683216111568
+    second: zx run_2
+  - first:
+      213: -2818227338750626868
+    second: zx run_3
+  - first:
+      213: 9134292859731758862
+    second: zx run_4
+  - first:
+      213: 572422726677195471
+    second: zx run_5
+  - first:
+      213: 8881281096960872034
+    second: zx run_6
+  - first:
+      213: 1188892362202184384
+    second: zx run_7
+  - first:
+      213: -4105161838450728647
+    second: zx run_8
+  - first:
+      213: 8210359756115389526
+    second: zx run_9
+  - first:
+      213: -5092990767308094722
+    second: zx run_10
+  - first:
+      213: -1982958435662386326
+    second: zx run_11
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zx run_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 6
+        width: 35
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac93ae9b0dc890243b27b876eacc0cb7
+      internalID: 5822082868436163361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 6
+        width: 33
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5698807, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522fb053ab3dd28418307c8fdff2dfa3
+      internalID: -4811382402939711888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 6
+        width: 29
+        height: 39
+      alignment: 9
+      pivot: {x: 0.6139147, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877c93cabfa85d746a2f0bd01d81e182
+      internalID: 9206385683216111568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 6
+        width: 36
+        height: 36
+      alignment: 9
+      pivot: {x: 0.60136116, y: -0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2e2a69b3acb59418154492d5ceebc1
+      internalID: -2818227338750626868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run_4
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 6
+        width: 40
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ef7fd295a00d84b9b7cf05bde36845
+      internalID: 9134292859731758862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run_5
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 6
+        width: 32
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e9a197ae84d4e49b93194262e73165
+      internalID: 572422726677195471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run_6
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 6
+        width: 22
+        height: 36
+      alignment: 9
+      pivot: {x: 0.41238612, y: -0.0035694838}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7eb3f387fdb1643ae9b99090773b7a
+      internalID: 8881281096960872034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run_7
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 6
+        width: 30
+        height: 38
+      alignment: 9
+      pivot: {x: 0.39821216, y: 0.04139254}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a99dd62ff603340b1b2bfc16279a33
+      internalID: 1188892362202184384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run_8
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 6
+        width: 36
+        height: 37
+      alignment: 9
+      pivot: {x: 0.4563709, y: -0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a394b34d173174f8c4ce9ef460a882
+      internalID: -4105161838450728647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run_9
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 6
+        width: 37
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5233171, y: 0.018176885}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c52a582d3a3e604ebed97615eeab0c8
+      internalID: 8210359756115389526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run_10
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 6
+        width: 35
+        height: 38
+      alignment: 9
+      pivot: {x: 0.509477, y: 0.004613073}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0ad6c8a88eb8549b7d41c6e82ef3fe
+      internalID: -5092990767308094722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run_11
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 6
+        width: 32
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5470295, y: 0.002074074}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30e0d465f5266d4692ef6030413b6e5
+      internalID: -1982958435662386326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

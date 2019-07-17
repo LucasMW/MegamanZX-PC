@@ -1,0 +1,811 @@
+fileFormatVersion: 2
+guid: 5bd630422d0adca4c8c157582a0e226d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8701091880595216568
+    second: zx run norm_0
+  - first:
+      213: 5132549779976412792
+    second: zx run norm_1
+  - first:
+      213: 5438239771395137949
+    second: zx run norm_2
+  - first:
+      213: -4511817377144255732
+    second: zx run norm_3
+  - first:
+      213: 450486672123744325
+    second: zx run norm_4
+  - first:
+      213: -1219971029357126698
+    second: zx run norm_5
+  - first:
+      213: -5371676789019397117
+    second: zx run norm_6
+  - first:
+      213: 3825177967675204343
+    second: zx run norm_7
+  - first:
+      213: -5356808104210528396
+    second: zx run norm_8
+  - first:
+      213: 8727815585617881656
+    second: zx run norm_9
+  - first:
+      213: 886145397369722419
+    second: zx run norm_10
+  - first:
+      213: 7107016107076900010
+    second: zx run norm_11
+  - first:
+      213: -4840366376429693094
+    second: zx run norm_12
+  - first:
+      213: -4886245147054221325
+    second: zx run norm_13
+  - first:
+      213: 6847814307243889202
+    second: zx run norm_14
+  - first:
+      213: 8636063305200203667
+    second: zx run norm_15
+  - first:
+      213: -1758088313993094586
+    second: zx run norm_16
+  - first:
+      213: -1518423899704735999
+    second: zx run norm_17
+  - first:
+      213: 5665763635086220141
+    second: zx run norm_18
+  - first:
+      213: 3186872917206068543
+    second: zx run norm_19
+  - first:
+      213: -2304094347499732517
+    second: zx run norm_20
+  - first:
+      213: 316649701222524583
+    second: zx run norm_21
+  - first:
+      213: -7013670084749831462
+    second: zx run norm_22
+  - first:
+      213: 1295786211729791963
+    second: zx run norm_23
+  - first:
+      213: -6317409639849940698
+    second: zx run norm_24
+  - first:
+      213: -6664462693265714970
+    second: zx run norm_25
+  - first:
+      213: 7188817556285724611
+    second: zx run norm_26
+  - first:
+      213: 8649955685856972266
+    second: zx run norm_29
+  - first:
+      213: 79077388254989573
+    second: zx run norm_27
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zx run norm_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 55
+        width: 32
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccb851bb2797384da40611b7c2be546
+      internalID: -8701091880595216568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run norm_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 55
+        width: 32
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82879cde32d7c384fb7bc415cfdce7d4
+      internalID: 5132549779976412792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run norm_2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 55
+        width: 35
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f25299ac5c40e94e820fe1018c34021
+      internalID: 5438239771395137949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run norm_3
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 55
+        width: 40
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39101f5e12f358d4c8fe62b3d3434b3f
+      internalID: -4511817377144255732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run norm_4
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 55
+        width: 31
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74946d264979363478ace5528812ce32
+      internalID: 450486672123744325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run norm_5
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 55
+        width: 27
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3578387454044c448adfddc977305420
+      internalID: -1219971029357126698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run norm_6
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 55
+        width: 30
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c5de2187e23f049818f28190a3bd72
+      internalID: -5371676789019397117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run norm_7
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 55
+        width: 33
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e49fe775b804943b93b34a5c2957a7
+      internalID: 3825177967675204343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run norm_8
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 55
+        width: 36
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf81e64a74dd064390c327f5216a117
+      internalID: -5356808104210528396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run norm_9
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 55
+        width: 31
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77082ec02f9dd894caf7129efc3cf3d5
+      internalID: 8727815585617881656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run norm_10
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 55
+        width: 31
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11a885d0f816a44ea028f40d75d566e
+      internalID: 886145397369722419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run norm_11
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 55
+        width: 34
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123c2db67a8bb014088f539e9d67e901
+      internalID: 7107016107076900010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run norm_12
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 55
+        width: 34
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b05853c54058994897839463477ed3d
+      internalID: -4840366376429693094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run norm_13
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 55
+        width: 36
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff4d91a288976b42ac74e3d38818e8e
+      internalID: -4886245147054221325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run norm_14
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 55
+        width: 40
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c55056e3efbf7a4a9036259007d57fb
+      internalID: 6847814307243889202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run norm_15
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 55
+        width: 34
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef070509d93c4d34ba868756f38c6aec
+      internalID: 8636063305200203667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run norm_16
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 55
+        width: 34
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed6de5dc6ebf734cbd60911dd8b5459
+      internalID: -1758088313993094586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run norm_17
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 55
+        width: 34
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b90a5cb47b92654995abafa26763c11
+      internalID: -1518423899704735999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run norm_18
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 55
+        width: 34
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbee216678ed4134aa650b680f310676
+      internalID: 5665763635086220141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run norm_19
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 55
+        width: 35
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea74284b76be0f646823e8abd0a658a3
+      internalID: 3186872917206068543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run norm_20
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 55
+        width: 34
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61cf07b67355fcd40a22ea0a2b65292d
+      internalID: -2304094347499732517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run norm_21
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 55
+        width: 34
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feee75751c66ca245913484597f78ca0
+      internalID: 316649701222524583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run norm_22
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 4
+        width: 71
+        height: 34
+      alignment: 9
+      pivot: {x: 0.26925445, y: 0.5578891}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aaec9bc82217384aaffaff9e9a16a17
+      internalID: -7013670084749831462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run norm_23
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 4
+        width: 71
+        height: 34
+      alignment: 9
+      pivot: {x: 0.26809907, y: 0.55620503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de223d21b4fcc5c4d8326da1e53a05ab
+      internalID: 1295786211729791963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run norm_24
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 6
+        width: 71
+        height: 32
+      alignment: 9
+      pivot: {x: 0.2673314, y: 0.53085876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca93c789e06a1844b72def090eaf0f1
+      internalID: -6317409639849940698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run norm_25
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 23
+        width: 29
+        height: 15
+      alignment: 9
+      pivot: {x: 0.652027, y: 0.06882324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34785395ef5dc134b9b66db09aa0be77
+      internalID: -6664462693265714970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run norm_26
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 23
+        width: 23
+        height: 15
+      alignment: 9
+      pivot: {x: 0.77263606, y: 0.1349968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0b6af2852e7ea4bb2d718c9a581da0
+      internalID: 7188817556285724611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run norm_29
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 21
+        width: 25
+        height: 17
+      alignment: 9
+      pivot: {x: 0.7196802, y: 0.2124231}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa190ae98ecf8ca4aac072d47ab4beaa
+      internalID: 8649955685856972266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx run norm_27
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 19
+        width: 27
+        height: 19
+      alignment: 9
+      pivot: {x: 0.68805385, y: 0.2634936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c5949a15d317b41a43698abd12c9fb
+      internalID: 79077388254989573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

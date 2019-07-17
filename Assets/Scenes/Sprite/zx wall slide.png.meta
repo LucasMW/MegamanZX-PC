@@ -1,0 +1,379 @@
+fileFormatVersion: 2
+guid: 86949e96325491845acb97f6b688d1e6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8188482378282667729
+    second: zx wall slide_0
+  - first:
+      213: -5664764632553759510
+    second: zx wall slide_1
+  - first:
+      213: 1544310885041140054
+    second: zx wall slide_2
+  - first:
+      213: -936518219183012025
+    second: zx wall slide_3
+  - first:
+      213: -5054888206904426723
+    second: zx wall slide_4
+  - first:
+      213: 5697319756270297143
+    second: zx wall slide_5
+  - first:
+      213: -7031673344408120249
+    second: zx wall slide_6
+  - first:
+      213: 2415055251403743508
+    second: zx wall slide_7
+  - first:
+      213: 6735739921250837259
+    second: zx wall slide_8
+  - first:
+      213: 462348519355725025
+    second: zx wall slide_9
+  - first:
+      213: 5084464291869647349
+    second: zx wall slide_10
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zx wall slide_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 5
+        width: 31
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e8b63b672e82e4ca0a7e669890e5a5
+      internalID: 8188482378282667729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx wall slide_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 5
+        width: 31
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15328051e80ebef4dac45786d99244fb
+      internalID: -5664764632553759510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx wall slide_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 4
+        width: 32
+        height: 37
+      alignment: 9
+      pivot: {x: 0.517086, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc1c8dad7e830644bdc8c76e940807f
+      internalID: 1544310885041140054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx wall slide_3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 5
+        width: 35
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5578428, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24f3ad911ee0824f88b06332eb69110
+      internalID: -936518219183012025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx wall slide_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 5
+        width: 29
+        height: 43
+      alignment: 9
+      pivot: {x: 0.451448, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebac240df536e0444a9772e5740e0a99
+      internalID: -5054888206904426723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx wall slide_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 5
+        width: 30
+        height: 43
+      alignment: 9
+      pivot: {x: 0.469173, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332d4e5ff2021a94697f957044f3d2ce
+      internalID: 5697319756270297143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx wall slide_6
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 5
+        width: 32
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5046397, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b642940789541f444854f4e7d8d45ef4
+      internalID: -7031673344408120249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx wall slide_7
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 5
+        width: 31
+        height: 43
+      alignment: 9
+      pivot: {x: 0.4889745, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914a775185c8e7845af46b001d4e3c29
+      internalID: 2415055251403743508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx wall slide_8
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 5
+        width: 28
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13340db0e882a8499d488d5ae7d47fc
+      internalID: 6735739921250837259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx wall slide_9
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 5
+        width: 29
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1bd0b67e1fd01e43a00c66fc2c1b3b9
+      internalID: 462348519355725025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zx wall slide_10
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 5
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77002b21aa5218049a8bd8bec7384121
+      internalID: 5084464291869647349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

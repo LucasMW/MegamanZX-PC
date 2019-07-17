@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Background
+  - Wall
+  - One Way Plat
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Background
+  - Ground
+  - Oneway Platforms
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background 2
+    uniqueID: 850930855
+    locked: 0
+  - name: Background
+    uniqueID: 2083683925
+    locked: 0
+  - name: Terrain
+    uniqueID: 2010658395
+    locked: 0
+  - name: Character
+    uniqueID: 4115193119
+    locked: 0
+  - name: Foreground
+    uniqueID: 3249609281
+    locked: 0
+  - name: UI
+    uniqueID: 3958344001
+    locked: 0
