@@ -478,7 +478,7 @@ public class PlayerControl : MonoBehaviour
                     _animator.SetTrigger("Attack");
                     _animator.SetBool("DashAtk", true);
                 }
-                else
+                else 
                 {
                     _animator.SetTrigger("Attack");
                     _animator.SetBool("RunAtk", true);
@@ -539,6 +539,8 @@ public class PlayerControl : MonoBehaviour
     }
     private void endNormAtk()
     {
+
+        _animator.SetBool("RunAtk", false);
         _animator.ResetTrigger("Dashcut");
         _animator.SetBool("NormAtk", false);
         _animator.ResetTrigger("Attack");
@@ -573,11 +575,15 @@ public class PlayerControl : MonoBehaviour
     }
     private void jumpAtkSound()
     {
-        if (!jumpatk)
+        if (jumpatk)
         {
-            jumpatk = true;
+            jumpatk = false;
             soundManager.PlaySound("NormAtk1");
         }
+    }
+    private void dashAtkSound()
+    {
+        soundManager.PlaySound("NormAtk1");
     }
     private void looped()
     {

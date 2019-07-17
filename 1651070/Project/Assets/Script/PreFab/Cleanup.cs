@@ -10,6 +10,6 @@ public class Cleanup : MonoBehaviour
     // Update is called once per frame
     private void DestroySelf()
     {
-        Destroy(this.gameObject, 1f);
+        Destroy(this.gameObject);
     }
 }
