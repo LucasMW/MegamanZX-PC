@@ -478,7 +478,7 @@ public class PlayerControl : MonoBehaviour
 
             if (!_controller.isGrounded)
             {
-                if (!wallsliding)
+                if (!wallsliding && !wallgrab && !walljumping)
                 {
                     soundManager.PlaySound("NormAtk1");
                     _animator.SetBool("JumpAtk", true);
