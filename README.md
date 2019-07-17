@@ -1,6 +1,8 @@
 # MegamanZX-PC
 
-1651070 - Nguyen Bui Le Vinh, A Demo for Megaman ZX remake for PC. This is for educational purpose only. Made on Unity 2019.3.0a4.
+1651070 - Nguyen Bui Le Vinh
+A Demo for Megaman ZX remake for PC. This is for educational purpose only. Made on Unity 2019.3.0a4.
+
 Reference: https://github.com/prime31/CharacterController2D
 https://www.youtube.com/watch?v=MbWK8bCAU2w&list=PLFt_AvWsXl0f0hqURlhyIoAabKPgRsqjz - Playlist for making a robust 2D platformer using raycasting for physics
 https://roystanross.wordpress.com/2015/05/10/custom-character-controller-in-unity-part-6-ground-detection/ 
