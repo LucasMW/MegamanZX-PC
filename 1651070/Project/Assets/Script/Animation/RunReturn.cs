@@ -14,6 +14,7 @@ public class RunReturn : StateMachineBehaviour
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         first = true;
+        Zsaber = animator.gameObject.GetComponent<Linker>().Zsaber;
         timestart = animator.GetCurrentAnimatorClipInfo(0)[0].clip.length * Mathf.Repeat(stateInfo.normalizedTime, 1) + 12f/60f;
         //timestart = 0.6825249f;
         if (timestart >= 0.65f)
@@ -42,10 +43,7 @@ public class RunReturn : StateMachineBehaviour
         if (first)
         {
             //Debug.Log("Slash length" + animator.GetCurrentAnimatorClipInfo(0)[0].clip.length);
-           
-            
-            GameObject newZsaber = Instantiate(Zsaber, animator.gameObject.transform, false);
-            newZsaber.transform.localPosition = new Vector3(-0.159f, 0.312f, 0);
+            Zsaber.SetActive(true);
             first = false;
         }
         time = animator.GetCurrentAnimatorClipInfo(0)[0].clip.length * Mathf.Repeat(stateInfo.normalizedTime, 1);

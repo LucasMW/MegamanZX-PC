@@ -12,6 +12,8 @@ public class RunAtkSlash : StateMachineBehaviour
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+
+        animator.gameObject.GetComponent<PlayerControl>().hitBox.GetComponent<Animator>().SetInteger("Attacktype", 6);
         first = true;
         timestart = animator.GetCurrentAnimatorClipInfo(0)[0].clip.length * Mathf.Repeat(stateInfo.normalizedTime, 1) + 0.03f;
         if (timestart >= 0.30f)

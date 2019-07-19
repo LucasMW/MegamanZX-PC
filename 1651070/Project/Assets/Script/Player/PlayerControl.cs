@@ -54,9 +54,11 @@ public class PlayerControl : MonoBehaviour
     bool jumpdashing;
     public float soundTimerset;
     private float soundTimer;
+    public GameObject hitBox;
+    public GameObject hurtBox;
+    public GameObject dodgeBox;
     void Awake()
     {
-        
         currentDashCooldownTimer = DashCooldownTimer;
         baseGravity = gravity;
         dashTime = dashDistance / dashSpeed;
@@ -131,8 +133,13 @@ public class PlayerControl : MonoBehaviour
             _animator.ResetTrigger("Walljump");
             _animator.SetBool("Wallslide", false);
             _animator.SetBool("JumpAtk", false);
+            if (hitBox.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("JumpAtk - Hitbox"))
+            {
+                hitBox.GetComponent<Animator>().Play("Hitbox Base");
+            }
             _animator.ResetTrigger("Jump");
-            if (jumpdashing == true)
+            _animator.ResetTrigger("Wallleap");
+            if (dashing == false || jumpdashing == false)
             {
                 ghost.makeAfterimage = false;
                 jumpdashing = false;
@@ -206,6 +213,11 @@ public class PlayerControl : MonoBehaviour
         {
             _animator.ResetTrigger("Wallleap");
             _animator.SetBool("JumpAtk", false);
+
+            if (hitBox.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("JumpAtk - Hitbox"))
+            {
+                hitBox.GetComponent<Animator>().Play("Hitbox Base");
+            }
             dashing = false;
             ghost.makeAfterimage = false;
             gravity = baseGravity;
@@ -480,6 +492,7 @@ public class PlayerControl : MonoBehaviour
             {
                 if (!wallsliding && !wallgrab && !walljumping)
                 {
+                    hitBox.GetComponent<Animator>().SetInteger("Attacktype", 4);
                     soundManager.PlaySound("NormAtk1");
                     _animator.SetBool("JumpAtk", true);
                     if (_velocity.y <= 0)
@@ -493,6 +506,7 @@ public class PlayerControl : MonoBehaviour
         {
             if(_animator.GetBool("DashAtk") && !_controller.isGrounded && !wallsliding)
             {
+                hitBox.GetComponent<Animator>().SetInteger("Attacktype", 4);
                 _animator.SetBool("DashAtk", false);
                 soundManager.PlaySound("NormAtk1");
                 _animator.SetBool("JumpAtk", true);
@@ -505,6 +519,12 @@ public class PlayerControl : MonoBehaviour
         if (Input.GetButtonUp("Fire2"))
         {
             jumpatk = false;
+            
+            if (hitBox.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("JumpAtk - Hitbox"))
+            {
+                hitBox.GetComponent<Animator>().Play("Hitbox Base");
+                hitBox.GetComponent<Animator>().SetInteger("Attacktype", 0);
+            }
             _animator.SetBool("JumpAtk", false);
             gravity = baseGravity;
         }
@@ -520,7 +540,6 @@ public class PlayerControl : MonoBehaviour
 
     void endwallslide()
     {
-
         wallsliding = false;
         _animator.SetBool("Wallslide", false);
     }

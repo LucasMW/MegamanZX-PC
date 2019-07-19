@@ -8,6 +8,8 @@ TagManager:
   - Background
   - Wall
   - One Way Plat
+  - Enemy
+  - Spawn Point
   layers:
   - Default
   - TransparentFX
@@ -21,10 +23,10 @@ TagManager:
   - Background
   - Ground
   - Oneway Platforms
-  - 
-  - 
-  - 
-  - 
+  - HitBox
+  - HurtBox
+  - DodgeBox
+  - Enemy
   - 
   - 
   - 
