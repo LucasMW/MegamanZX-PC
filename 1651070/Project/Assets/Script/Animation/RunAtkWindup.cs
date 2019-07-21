@@ -65,8 +65,6 @@ override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInf
         }
         
         
-        animator.SetFloat("TimeDebug", animator.GetCurrentAnimatorClipInfo(0)[0].clip.length * Mathf.Repeat(stateInfo.normalizedTime, 1));
-        
         if (animator.GetBool("RunAtk"))
         {
 
@@ -89,7 +87,6 @@ override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInf
             Debug.Log("Debug1");*/
 
             time = Mathf.Repeat(time /(37f/22f), animator.GetCurrentAnimatorClipInfo(0)[0].clip.length/ (37f / 22f));
-            animator.SetFloat("RunWindupTime", time+0.03f);
             animator.PlayInFixedTime("RunAtkWindup", 0, time);
         }
     }

@@ -57,8 +57,15 @@ public class PlayerControl : MonoBehaviour
     public GameObject hitBox;
     public GameObject hurtBox;
     public GameObject dodgeBox;
+    public bool inviframestarted = false;
+    public float inviframeduration;
+    public float inviframeoffset;
+    private float currentinviframe;
+    private float countframe;
+    float countframe2;
     void Awake()
     {
+        currentinviframe = inviframeduration;
         currentDashCooldownTimer = DashCooldownTimer;
         baseGravity = gravity;
         dashTime = dashDistance / dashSpeed;
@@ -97,13 +104,11 @@ public class PlayerControl : MonoBehaviour
 
     void onTriggerEnterEvent(Collider2D col)
     {
-        Debug.Log("onTriggerEnterEvent: " + col.gameObject.name);
     }
 
 
     void onTriggerExitEvent(Collider2D col)
     {
-        Debug.Log("onTriggerExitEvent: " + col.gameObject.name);
     }
 
     #endregion
@@ -139,16 +144,42 @@ public class PlayerControl : MonoBehaviour
             }
             _animator.ResetTrigger("Jump");
             _animator.ResetTrigger("Wallleap");
-            if (dashing == false || jumpdashing == false)
+            if (dashing == false)
+            {
+                InviframeOff();
+                inviframestarted = false;
+                jumpdashing = false;
+            }
+
+            if (_animator.GetCurrentAnimatorStateInfo(0).IsName("Run"))
             {
                 ghost.makeAfterimage = false;
-                jumpdashing = false;
-                dashing = false;
+                _animator.ResetTrigger("Attack");
+                _animator.SetBool("JumpAtk", false);
+                _animator.SetBool("DashAtk", false);
+            }
+            if (_animator.GetCurrentAnimatorStateInfo(0).IsName("Landing"))
+            {
+                ghost.makeAfterimage = false;
+                _animator.ResetTrigger("Attack");
+                _animator.SetBool("JumpAtk", false);
+                _animator.SetBool("DashAtk", false);
+                _animator.SetBool("RunAtk", false);
+            }
+            if (_animator.GetCurrentAnimatorStateInfo(0).IsName("Idle"))
+            {
+                ghost.makeAfterimage = false;
+                _animator.SetBool("JumpAtk", false);
+                _animator.SetBool("DashAtk", false);
+                _animator.SetBool("RunAtk", false);
             }
         }
         if (!_controller.isGrounded)
         {
+            InviframeOff();
+            inviframestarted = false;
             _animator.SetBool("On Ground", false);
+            _animator.SetBool("RunAtk", false);
         }
         if (!wallgrab && !_animator.GetBool("NormAtk") && !_animator.GetBool("Dash") && !walljumping)
         {
@@ -181,7 +212,7 @@ public class PlayerControl : MonoBehaviour
                 normalizedHorizontalSpeed = 0;
                 wallsliding = false;
                 _animator.SetBool("Wallslide", false);
-                if (_controller.isGrounded && !_animator.GetBool("DashAtk") )
+                if (_controller.isGrounded)
                     _animator.SetFloat("Speed", 0);
             }
         }
@@ -194,9 +225,12 @@ public class PlayerControl : MonoBehaviour
             _animator.SetTrigger("Jump");
             soundManager.PlaySound("Jump");
             _animator.SetBool("DashAtk", false);
+            _animator.SetBool("RunAtk", false);
+            _animator.ResetTrigger("Attack");
             if (dashing)
             {
-                jumpdashing = true;
+                InviframeOff();
+                inviframestarted = false;
             }
             /*if (currentDashBoost != null)
             {
@@ -219,6 +253,8 @@ public class PlayerControl : MonoBehaviour
                 hitBox.GetComponent<Animator>().Play("Hitbox Base");
             }
             dashing = false;
+            InviframeOff();
+            inviframestarted = false;
             ghost.makeAfterimage = false;
             gravity = baseGravity;
             wallsliding = true;
@@ -235,8 +271,6 @@ public class PlayerControl : MonoBehaviour
             }
             _velocity.x = Mathf.Lerp(_velocity.x, normalizedHorizontalSpeed * runSpeed, Time.deltaTime * inAirDamping);
             _velocity.y = wallSlideSpeed;
-            print("_controller.collisionState.left " + _controller.collisionState.left);
-            print("_controller.collisionState.right " + _controller.collisionState.right);
             _animator.SetBool("Wallslide", true);
             
             if (Input.GetButton("Fire1") && (currentDash > 0))
@@ -270,7 +304,6 @@ public class PlayerControl : MonoBehaviour
                     soundManager.PlaySound("Jump");
                     soundManager.PlaySound("Dash");
                     ghost.makeAfterimage = true;
-                    jumpdashing = true;
                 }
                 else
                 {
@@ -289,37 +322,6 @@ public class PlayerControl : MonoBehaviour
                 _animator.SetBool("Wallslide", false);
             }
         }
-        /*if(wallsliding == true && Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            wallsliding = false;
-            _velocity.y = wallJump.y;
-            _velocity.x = -wallDirX * wallJump.x;
-            _animator.SetTrigger("Walljump");
-        } else*/
-        /*if (wallsliding == true && Input.GetButton("Fire1"))
-        {
-            wallsliding = true;
-            wallgrab = true;
-            _velocity.x = Mathf.Lerp(_velocity.x, wallDirX * runSpeed, Time.deltaTime * inAirDamping);
-            _velocity.y = 0;
-            if (Input.GetAxisRaw("Horizontal")!= 0 && Input.GetAxisRaw("Horizontal")!= wallDirX && Input.GetKeyDown(KeyCode.UpArrow))
-            {
-                wallgrab = false;
-                print("Called");
-                _velocity.x = -wallDirX * wallLeap.x;
-                _velocity.y = wallLeap.y;
-                wallsliding = false;
-                _animator.SetTrigger("Wallleap");
-            }
-        }
-        
-        Delayanimation -= Time.deltaTime;
-        if (Delayanimation <= 0)
-        {
-            Delayanimation = 1f;
-            leaping = false;
-        }*/
-        // apply horizontal speed smoothing it. dont really do this with Lerp. Use SmoothDamp or something that provides more control
 
         if (!wallsliding)
         {
@@ -331,12 +333,30 @@ public class PlayerControl : MonoBehaviour
                 {
                     _animator.SetBool("Dash", false);
                 }else
-                if (Input.GetButton("Fire1") && currentDash > 0 && dashTime >= 0 && (_controller.isGrounded || dashing))
+                if (Input.GetButton("Fire1") && currentDash > 0 && dashTime >= 0 && (_controller.isGrounded || dashing) && !_animator.GetBool("NormAtk"))
                 {
+                    if(!inviframestarted)
+                    {
+                        inviframestarted = true;
+                        countframe = Time.time + inviframeoffset;
+                        countframe2 = countframe + inviframeduration;
+                        
+                    }else
+                    {
+                        if(Time.time >= countframe)
+                        {
+                            InviframeOn();
+                            countframe = Mathf.Infinity;
+                        }else
+                        if (Time.time >= countframe2)
+                        {
+                            InviframeOff();
+                        }
+                    }
                     ghost.makeAfterimage = true;
                     dashing = true;
                     canCDdash = false;
-                    currentDash = (currentDash > 0) ? currentDash - 15f * Time.deltaTime : 0;
+                    currentDash = (currentDash > 0) ? currentDash - 20f * Time.deltaTime : 0;
 
                     if (!DashBoostcreated)
                     {
@@ -347,7 +367,6 @@ public class PlayerControl : MonoBehaviour
                         currentDashDust = Instantiate(DashDust, transform.position, transform.rotation);
                         currentDashDust.transform.localScale = currentDashBoost.transform.localScale;
                     }
-                    _animator.SetFloat("DashTimer", dashTime);
                     _animator.SetBool("Dash", true);
                     dashTime -= Time.deltaTime;
                     if (Input.GetAxisRaw("Horizontal") == 0)
@@ -417,6 +436,7 @@ public class PlayerControl : MonoBehaviour
             if (_controller.isGrounded)
             {
                 dashing = false;
+                InviframeOff();
                 ghost.makeAfterimage = false;
             }
             canCDdash = true;
@@ -432,6 +452,9 @@ public class PlayerControl : MonoBehaviour
             {
                 dashing = false;
                 ghost.makeAfterimage = false;
+                InviframeOff();
+                
+                inviframestarted = false;
             }
             canCDdash = true;
             DashBoostcreated = false;
@@ -441,7 +464,6 @@ public class PlayerControl : MonoBehaviour
             {
                 currentDashCooldownTimer = DashCooldownTimer;
             }
-            _animator.SetTrigger("Dashcut");
             Destroy(currentDashBoost);
 
             Destroy(currentDashDust, 1f);
@@ -459,6 +481,7 @@ public class PlayerControl : MonoBehaviour
                 soundTimer = soundTimerset;
             }
         }
+
     }
     void LateUpdate()
     {
@@ -471,7 +494,7 @@ public class PlayerControl : MonoBehaviour
         {
             if (_controller.isGrounded)
             {
-                if (!Input.GetKey(KeyCode.RightArrow) && !Input.GetKey(KeyCode.LeftArrow) && _animator.GetFloat("Speed") == 0 && _velocity.x == 0)
+                if (!Input.GetKey(KeyCode.RightArrow) && !Input.GetKey(KeyCode.LeftArrow) && _animator.GetFloat("Speed") == 0 && Mathf.Abs(Mathf.RoundToInt(_velocity.x)) == 0)
                 {
                     _animator.SetTrigger("Attack");
                     _animator.SetBool("NormAtk", true);
@@ -481,7 +504,7 @@ public class PlayerControl : MonoBehaviour
                     _animator.SetTrigger("Attack");
                     _animator.SetBool("DashAtk", true);
                 }
-                else 
+                else if(_animator.GetCurrentAnimatorStateInfo(0).IsName("Run"))
                 {
                     _animator.SetTrigger("Attack");
                     _animator.SetBool("RunAtk", true);
@@ -506,6 +529,8 @@ public class PlayerControl : MonoBehaviour
         {
             if(_animator.GetBool("DashAtk") && !_controller.isGrounded && !wallsliding)
             {
+
+                _animator.ResetTrigger("Attack");
                 hitBox.GetComponent<Animator>().SetInteger("Attacktype", 4);
                 _animator.SetBool("DashAtk", false);
                 soundManager.PlaySound("NormAtk1");
@@ -514,12 +539,14 @@ public class PlayerControl : MonoBehaviour
                 {
                     gravity = gravity / 30f;
                 }
+            }else if(_controller.isGrounded && !wallsliding && _animator.GetCurrentAnimatorStateInfo(0).IsName("Run"))
+            {
+                _animator.SetBool("RunAtk", true);
             }
         }
         if (Input.GetButtonUp("Fire2"))
         {
             jumpatk = false;
-            
             if (hitBox.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("JumpAtk - Hitbox"))
             {
                 hitBox.GetComponent<Animator>().Play("Hitbox Base");
@@ -552,7 +579,6 @@ public class PlayerControl : MonoBehaviour
     {
 
         _animator.SetBool("RunAtk", false);
-        _animator.ResetTrigger("Dashcut");
         _animator.SetBool("NormAtk", false);
         _animator.ResetTrigger("Attack");
     }
@@ -612,5 +638,15 @@ public class PlayerControl : MonoBehaviour
     private void playWalljump()
     {
         soundManager.PlaySound("Wallclimb");
+    }
+    private void InviframeOn()
+    {
+        hurtBox.SetActive(false);
+        dodgeBox.SetActive(true);
+    }
+    private void InviframeOff()
+    {
+        hurtBox.SetActive(true);
+        dodgeBox.SetActive(false);
     }
 }

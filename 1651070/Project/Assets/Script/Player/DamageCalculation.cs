@@ -24,25 +24,30 @@ public class DamageCalculation : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (!check.Contains(other.gameObject))
+        if (!check.Contains(other.gameObject) && other.gameObject.CompareTag("Enemy"))
         {
             soundManager.PlaySound("ZsaberHit");
             Debug.Log("Hit number " + counter);
             counter++;
             check.Add(other.gameObject);
-            other.gameObject.transform.parent.gameObject.GetComponent<EnemyStatManager>().currentHP -= Damage();
+            other.gameObject.transform.parent.gameObject.GetComponent<EnemyStatManager>().lasthitposition = gameObject.transform.parent.localScale;
+            other.gameObject.transform.parent.gameObject.GetComponent<EnemyStatManager>().currentHP -= (gameObject.transform.parent.localScale != other.gameObject.transform.parent.localScale)?1.5f*Damage():Damage();
+            other.gameObject.transform.parent.gameObject.GetComponent<EnemyStatManager>().hurt = true;
+            transform.parent.GetComponent<PlayerStatManager>().HPchange((other.gameObject.transform.parent.gameObject.GetComponent<EnemyStatManager>().currentHP<=0)?10:5);
         }
     }
     void OnTriggerExit2D(Collider2D other)
     {
-        if (!check.Contains(other.gameObject))
+        if (!check.Contains(other.gameObject) && other.gameObject.CompareTag("Enemy"))
         {
             Debug.Log("Hit number " + counter);
             counter++;
             check.Add(other.gameObject);
 
             soundManager.PlaySound("ZsaberHit");
-            other.gameObject.transform.parent.gameObject.GetComponent<EnemyStatManager>().currentHP -= Damage();
+            other.gameObject.transform.parent.gameObject.GetComponent<EnemyStatManager>().lasthitposition = gameObject.transform.parent.localScale;
+            other.gameObject.transform.parent.gameObject.GetComponent<EnemyStatManager>().currentHP -= (gameObject.transform.parent.localScale != other.gameObject.transform.parent.localScale) ? 1.5f * Damage() : Damage();
+            transform.parent.GetComponent<PlayerStatManager>().HPchange((other.gameObject.transform.parent.gameObject.GetComponent<EnemyStatManager>().currentHP <= 0) ? 10 : 5);
         }
     }
     void Update()
@@ -55,7 +60,7 @@ public class DamageCalculation : MonoBehaviour
     void OnTriggerStay2D(Collider2D other)
     {
         #region JumpATK
-        if (GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("JumpAtk - Hitbox"))
+        if (GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("JumpAtk - Hitbox") && other.gameObject.CompareTag("Enemy"))
         {
             if (first)
             {
@@ -82,7 +87,9 @@ public class DamageCalculation : MonoBehaviour
                 counter++;
 
                 soundManager.PlaySound("ZsaberHit");
-                other.gameObject.transform.parent.gameObject.GetComponent<EnemyStatManager>().currentHP -= Damage();
+                other.gameObject.transform.parent.gameObject.GetComponent<EnemyStatManager>().lasthitposition = gameObject.transform.parent.localScale;
+                other.gameObject.transform.parent.gameObject.GetComponent<EnemyStatManager>().currentHP -= (gameObject.transform.parent.localScale != other.gameObject.transform.parent.localScale) ? 1.5f * Damage() : Damage();
+                transform.parent.GetComponent<PlayerStatManager>().HPchange((other.gameObject.transform.parent.gameObject.GetComponent<EnemyStatManager>().currentHP <= 0) ? 10 : 5);
             }
         }
         #endregion
@@ -90,14 +97,16 @@ public class DamageCalculation : MonoBehaviour
         #region NormalAtk
         {
             
-            if (!check.Contains(other.gameObject))
+            if (!check.Contains(other.gameObject) && other.gameObject.CompareTag("Enemy"))
             {
                 check.Add(other.gameObject);
                     Debug.Log("Hit number " + counter);
                     counter++;
 
                 soundManager.PlaySound("ZsaberHit");
-                other.gameObject.transform.parent.gameObject.GetComponent<EnemyStatManager>().currentHP -= Damage();
+                other.gameObject.transform.parent.gameObject.GetComponent<EnemyStatManager>().lasthitposition = gameObject.transform.parent.localScale;
+                other.gameObject.transform.parent.gameObject.GetComponent<EnemyStatManager>().currentHP -= (gameObject.transform.parent.localScale != other.gameObject.transform.parent.localScale) ? 1.5f * Damage() : Damage();
+                transform.parent.GetComponent<PlayerStatManager>().HPchange((other.gameObject.transform.parent.gameObject.GetComponent<EnemyStatManager>().currentHP <= 0) ? 10 : 5);
             }
         }
         #endregion

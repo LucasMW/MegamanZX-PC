@@ -70,7 +70,6 @@ public class RunAtkSlash : StateMachineBehaviour
         {
 
             time = Mathf.Repeat(time*2 + 0.06f, animator.GetCurrentAnimatorClipInfo(0)[0].clip.length*2);
-            animator.SetFloat("RunSlashTime", time);
             animator.PlayInFixedTime("RunAtkSlash", 0, time);
         }
     }

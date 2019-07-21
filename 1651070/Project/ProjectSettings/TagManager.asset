@@ -10,6 +10,9 @@ TagManager:
   - One Way Plat
   - Enemy
   - Spawn Point
+  - BasicProjectile
+  - FxTemporaire
+  - Trap
   layers:
   - Default
   - TransparentFX

@@ -65,7 +65,6 @@ public class RunReturn : StateMachineBehaviour
         {
             time = Mathf.Repeat(time/(44f/37f) , 37f/60f);
             animator.SetBool("RunAtk", false);
-            animator.SetFloat("RunReturn", time);
             animator.SetBool("Debug", true);
 
             animator.ResetTrigger("Attack");

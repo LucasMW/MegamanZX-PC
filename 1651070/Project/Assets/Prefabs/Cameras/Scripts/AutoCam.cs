@@ -22,7 +22,7 @@ namespace UnityStandardAssets.Cameras
         private float m_CurrentTurnAmount; // How much to turn the camera
         private float m_TurnSpeedVelocityChange; // The change in the turn speed velocity
         private Vector3 m_RollUp = Vector3.up;// The roll of the camera around the z axis ( generally this will always just be up )
-
+        public float yMin = 0.36f;
 
         protected override void FollowTarget(float deltaTime)
         {
@@ -85,7 +85,7 @@ namespace UnityStandardAssets.Cameras
             }
 
             // camera position moves towards target position:
-            Vector3 targetpos = new Vector3(m_Target.position.x, Mathf.Clamp(m_Target.position.y, 0.36f, Mathf.Infinity), m_Target.position.z);
+            Vector3 targetpos = new Vector3(m_Target.position.x, Mathf.Clamp(m_Target.position.y, yMin, Mathf.Infinity), m_Target.position.z);
             transform.position = Vector3.Lerp(transform.position, targetpos, deltaTime*m_MoveSpeed);
 
             // camera's rotation is split into two parts, which can have independend speed settings:
