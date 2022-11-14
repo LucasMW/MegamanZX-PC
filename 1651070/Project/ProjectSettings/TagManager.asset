@@ -13,6 +13,7 @@ TagManager:
   - BasicProjectile
   - FxTemporaire
   - Trap
+  - PlayerShot
   layers:
   - Default
   - TransparentFX

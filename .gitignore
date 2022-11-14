@@ -3,6 +3,8 @@
 [Oo]bj/
 [Bb]uilds/
 Assets/AssetStoreTools*
+Project/build/
+1651070/Project/build/*
 
 # Visual Studio cache directory
 .vs/

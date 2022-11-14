@@ -238,8 +238,10 @@ public class EnemyStatManager : MonoBehaviour, IPooledObject
     }
     private void Attack()
     {
+        var objectPooler = ObjectPooler.Instance;
         GameObject Projectile = objectPooler.SpawnFromPool("ProjectileBasic", gunPoint.transform.position, transform.rotation);
         Projectile.transform.localScale = transform.localScale;
+        soundManager.PlaySound("Shoot");
     }
     private void EndAttack()
     {

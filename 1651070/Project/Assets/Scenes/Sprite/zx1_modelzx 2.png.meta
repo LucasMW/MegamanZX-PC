@@ -1,0 +1,1162 @@
+fileFormatVersion: 2
+guid: 6b9be2abfdac244b1b3c27dad8b3d85b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7159517099619362117
+    second: zx1_modelzx 2_0
+  - first:
+      213: 4261186301653107874
+    second: zx1_modelzx 2_1
+  - first:
+      213: 1535648869756734943
+    second: zx1_modelzx 2_2
+  - first:
+      213: -7067579890258188883
+    second: zx1_modelzx 2_3
+  - first:
+      213: 4797609348260672447
+    second: zx1_modelzx 2_4
+  - first:
+      213: 4260239274286356082
+    second: zx1_modelzx 2_5
+  - first:
+      213: 2107962920573848336
+    second: zx1_modelzx 2_6
+  - first:
+      213: 605045148240845180
+    second: zx1_modelzx 2_7
+  - first:
+      213: -5362969351555668297
+    second: zx1_modelzx 2_8
+  - first:
+      213: 1585042135625250533
+    second: zx1_modelzx 2_9
+  - first:
+      213: -6622125417139740157
+    second: zx1_modelzx 2_10
+  - first:
+      213: 7927749050817880247
+    second: zx1_modelzx 2_11
+  - first:
+      213: 8379690324033213018
+    second: zx1_modelzx 2_12
+  - first:
+      213: -4950213890508796600
+    second: zx1_modelzx 2_13
+  - first:
+      213: 365512088651998853
+    second: zx1_modelzx 2_14
+  - first:
+      213: 7476664995772147402
+    second: zx1_modelzx 2_15
+  - first:
+      213: -7955212269937185070
+    second: zx1_modelzx 2_16
+  - first:
+      213: -4544200280252009421
+    second: zx1_modelzx 2_17
+  - first:
+      213: -2870841172496448085
+    second: zx1_modelzx 2_18
+  - first:
+      213: -6103336642911469431
+    second: zx1_modelzx 2_19
+  - first:
+      213: -3300984360629999055
+    second: zx1_modelzx 2_20
+  - first:
+      213: -1968368041298628868
+    second: zx1_modelzx 2_21
+  - first:
+      213: -446693074524579025
+    second: zx1_modelzx 2_22
+  - first:
+      213: 7858833951584117655
+    second: zx1_modelzx 2_23
+  - first:
+      213: 8884645072874736208
+    second: zx1_modelzx 2_24
+  - first:
+      213: 701552598774438073
+    second: zx1_modelzx 2_25
+  - first:
+      213: -3589165076835496888
+    second: zx1_modelzx 2_26
+  - first:
+      213: -2418994660583932301
+    second: zx1_modelzx 2_27
+  - first:
+      213: -7061227376658522194
+    second: zx1_modelzx 2_28
+  - first:
+      213: 1469950367479975004
+    second: zx1_modelzx 2_29
+  - first:
+      213: 1111913566578813574
+    second: zx1_modelzx 2_30
+  - first:
+      213: 2646914465094395777
+    second: zx1_modelzx 2_31
+  - first:
+      213: -4262732449145330380
+    second: zx1_modelzx 2_32
+  - first:
+      213: 4542628047883262138
+    second: zx1_modelzx 2_33
+  - first:
+      213: 779201649089509199
+    second: zx1_modelzx 2_34
+  - first:
+      213: -1779702763424411137
+    second: zx1_modelzx 2_35
+  - first:
+      213: -4391968867834814561
+    second: zx1_modelzx 2_36
+  - first:
+      213: -480514001895342162
+    second: zx1_modelzx 2_37
+  - first:
+      213: 3620079750765037077
+    second: zx1_modelzx 2_38
+  - first:
+      213: 6846235654586442039
+    second: zx1_modelzx 2_39
+  - first:
+      213: 8797800596415537686
+    second: zx1_modelzx 2_40
+  - first:
+      213: 7192859960487040042
+    second: zx1_modelzx 2_41
+  - first:
+      213: -4728140897119849035
+    second: zx1_modelzx 2_42
+  - first:
+      213: -3891615397046436872
+    second: zx1_modelzx 2_43
+  - first:
+      213: 3921287900022321322
+    second: zx1_modelzx 2_44
+  - first:
+      213: -7160330871393196309
+    second: zx1_modelzx 2_45
+  - first:
+      213: 7876844237531300960
+    second: zx1_modelzx 2_46
+  - first:
+      213: 1838769269696619241
+    second: zx1_modelzx 2_47
+  - first:
+      213: 9162385137630866167
+    second: zx1_modelzx 2_48
+  - first:
+      213: 7103427451258367828
+    second: zx1_modelzx 2_49
+  - first:
+      213: 7507018120818044025
+    second: zx1_modelzx 2_50
+  - first:
+      213: 1273178926635848430
+    second: zx1_modelzx 2_51
+  - first:
+      213: 5842210272656264988
+    second: zx1_modelzx 2_52
+  - first:
+      213: -1966078269689339946
+    second: zx1_modelzx 2_53
+  - first:
+      213: -3150152276127569748
+    second: zx1_modelzx 2_54
+  - first:
+      213: 6369742468055817599
+    second: zx1_modelzx 2_55
+  - first:
+      213: 8391022795247157165
+    second: zx1_modelzx 2_56
+  - first:
+      213: 5773183918540187667
+    second: zx1_modelzx 2_57
+  - first:
+      213: 2069372561092264632
+    second: zx1_modelzx 2_58
+  - first:
+      213: -6292903498677437678
+    second: zx1_modelzx 2_59
+  - first:
+      213: 6755640433924931684
+    second: zx1_modelzx 2_60
+  - first:
+      213: 8936696055318326606
+    second: zx1_modelzx 2_61
+  - first:
+      213: -4160247879746152971
+    second: zx1_modelzx 2_62
+  - first:
+      213: -9171217774714548269
+    second: zx1_modelzx 2_63
+  - first:
+      213: -8229675517295640425
+    second: zx1_modelzx 2_64
+  - first:
+      213: -3679788606528881996
+    second: zx1_modelzx 2_65
+  - first:
+      213: -3776567998861918743
+    second: zx1_modelzx 2_66
+  - first:
+      213: -6402395089153693731
+    second: zx1_modelzx 2_67
+  - first:
+      213: -7216802468267267574
+    second: zx1_modelzx 2_68
+  - first:
+      213: -1789970774150604743
+    second: zx1_modelzx 2_69
+  - first:
+      213: -8647282239379045782
+    second: zx1_modelzx 2_70
+  - first:
+      213: -4030776859439666392
+    second: zx1_modelzx 2_71
+  - first:
+      213: -4446282858198766110
+    second: zx1_modelzx 2_72
+  - first:
+      213: -3932895718153354046
+    second: zx1_modelzx 2_73
+  - first:
+      213: -2293286659717593957
+    second: zx1_modelzx 2_74
+  - first:
+      213: 9132080787924053970
+    second: zx1_modelzx 2_75
+  - first:
+      213: -8300223803624232098
+    second: zx1_modelzx 2_76
+  - first:
+      213: -1091304106701617724
+    second: zx1_modelzx 2_77
+  - first:
+      213: 2502055828676623169
+    second: zx1_modelzx 2_78
+  - first:
+      213: 6596702399921003431
+    second: zx1_modelzx 2_79
+  - first:
+      213: 9084580389618957298
+    second: zx1_modelzx 2_80
+  - first:
+      213: -5989780897850251556
+    second: zx1_modelzx 2_81
+  - first:
+      213: 3364146223825966162
+    second: zx1_modelzx 2_82
+  - first:
+      213: -1192609649973247143
+    second: zx1_modelzx 2_83
+  - first:
+      213: 7755729367541350264
+    second: zx1_modelzx 2_84
+  - first:
+      213: -2833096449272341326
+    second: zx1_modelzx 2_85
+  - first:
+      213: 410359258819097479
+    second: zx1_modelzx 2_86
+  - first:
+      213: -4470768983870163168
+    second: zx1_modelzx 2_87
+  - first:
+      213: 982071517950111838
+    second: zx1_modelzx 2_88
+  - first:
+      213: 8817952528287642226
+    second: zx1_modelzx 2_89
+  - first:
+      213: 5267795654366842260
+    second: zx1_modelzx 2_90
+  - first:
+      213: -2914407992769087581
+    second: zx1_modelzx 2_91
+  - first:
+      213: 8948962598493488769
+    second: zx1_modelzx 2_92
+  - first:
+      213: -9052299314608672605
+    second: zx1_modelzx 2_93
+  - first:
+      213: 7593081380182598470
+    second: zx1_modelzx 2_94
+  - first:
+      213: -3955049305526524032
+    second: zx1_modelzx 2_95
+  - first:
+      213: 7494815574577317038
+    second: zx1_modelzx 2_96
+  - first:
+      213: -1846314520799078552
+    second: zx1_modelzx 2_97
+  - first:
+      213: -2417378691497195759
+    second: zx1_modelzx 2_98
+  - first:
+      213: -1195617558832751869
+    second: zx1_modelzx 2_99
+  - first:
+      213: 3559033271081094673
+    second: zx1_modelzx 2_100
+  - first:
+      213: 3147879406727500307
+    second: zx1_modelzx 2_101
+  - first:
+      213: 989167718169811317
+    second: zx1_modelzx 2_102
+  - first:
+      213: -4542417457749426959
+    second: zx1_modelzx 2_103
+  - first:
+      213: -8999232606644978601
+    second: zx1_modelzx 2_104
+  - first:
+      213: 9163076963161867551
+    second: zx1_modelzx 2_105
+  - first:
+      213: 7113113107090415439
+    second: zx1_modelzx 2_106
+  - first:
+      213: -5376416455130241824
+    second: zx1_modelzx 2_107
+  - first:
+      213: -2250184692161831100
+    second: zx1_modelzx 2_108
+  - first:
+      213: -2161261254003343018
+    second: zx1_modelzx 2_109
+  - first:
+      213: -4154510028693324880
+    second: zx1_modelzx 2_110
+  - first:
+      213: 307493799117639651
+    second: zx1_modelzx 2_111
+  - first:
+      213: -5458226689899539865
+    second: zx1_modelzx 2_112
+  - first:
+      213: 1253174155088437271
+    second: zx1_modelzx 2_113
+  - first:
+      213: 7725443779370548443
+    second: zx1_modelzx 2_114
+  - first:
+      213: -8041108034809892171
+    second: zx1_modelzx 2_115
+  - first:
+      213: -4318208338631734862
+    second: zx1_modelzx 2_116
+  - first:
+      213: 6475838904377132843
+    second: zx1_modelzx 2_117
+  - first:
+      213: -2471519395091816047
+    second: zx1_modelzx 2_118
+  - first:
+      213: -2502376712063982458
+    second: zx1_modelzx 2_119
+  - first:
+      213: -7105790717513731425
+    second: zx1_modelzx 2_120
+  - first:
+      213: 3785954268365437286
+    second: zx1_modelzx 2_121
+  - first:
+      213: -435881091284226176
+    second: zx1_modelzx 2_122
+  - first:
+      213: 5374849479522305271
+    second: zx1_modelzx 2_123
+  - first:
+      213: -2058954606224089497
+    second: zx1_modelzx 2_124
+  - first:
+      213: -2569914566526417082
+    second: zx1_modelzx 2_125
+  - first:
+      213: 7300893880297261874
+    second: zx1_modelzx 2_126
+  - first:
+      213: 2490912426752392984
+    second: zx1_modelzx 2_127
+  - first:
+      213: 4916686419348090207
+    second: zx1_modelzx 2_128
+  - first:
+      213: -1491081085560344301
+    second: zx1_modelzx 2_129
+  - first:
+      213: 3327401661710661119
+    second: zx1_modelzx 2_130
+  - first:
+      213: 9089021149658014966
+    second: zx1_modelzx 2_131
+  - first:
+      213: -6626726981182353320
+    second: zx1_modelzx 2_132
+  - first:
+      213: -8684892755731215763
+    second: zx1_modelzx 2_133
+  - first:
+      213: -5896876091501471485
+    second: zx1_modelzx 2_134
+  - first:
+      213: -1044575740754357259
+    second: zx1_modelzx 2_135
+  - first:
+      213: 755609604535301823
+    second: zx1_modelzx 2_136
+  - first:
+      213: -2926928950496943665
+    second: zx1_modelzx 2_137
+  - first:
+      213: 2791588463292152720
+    second: zx1_modelzx 2_138
+  - first:
+      213: 3509815200148763414
+    second: zx1_modelzx 2_139
+  - first:
+      213: -6869072986592037711
+    second: zx1_modelzx 2_140
+  - first:
+      213: 4144787371401121308
+    second: zx1_modelzx 2_141
+  - first:
+      213: 1947623636379265572
+    second: zx1_modelzx 2_142
+  - first:
+      213: 398033077847174815
+    second: zx1_modelzx 2_143
+  - first:
+      213: -2083895996790839598
+    second: zx1_modelzx 2_144
+  - first:
+      213: -3865433008488249995
+    second: zx1_modelzx 2_145
+  - first:
+      213: 4070467659718752492
+    second: zx1_modelzx 2_146
+  - first:
+      213: -8640310358415704760
+    second: zx1_modelzx 2_147
+  - first:
+      213: 2194399705020534972
+    second: zx1_modelzx 2_148
+  - first:
+      213: 7558906361082053321
+    second: zx1_modelzx 2_149
+  - first:
+      213: -255067436526113996
+    second: zx1_modelzx 2_150
+  - first:
+      213: -7231978535678213255
+    second: zx1_modelzx 2_151
+  - first:
+      213: 5219165007890551609
+    second: zx1_modelzx 2_152
+  - first:
+      213: -4533472189765419119
+    second: zx1_modelzx 2_153
+  - first:
+      213: 4883673412560522565
+    second: zx1_modelzx 2_154
+  - first:
+      213: 2025581467839977660
+    second: zx1_modelzx 2_155
+  - first:
+      213: -2625649279645542871
+    second: zx1_modelzx 2_156
+  - first:
+      213: -1928876368509968866
+    second: zx1_modelzx 2_157
+  - first:
+      213: 8494973529811295404
+    second: zx1_modelzx 2_158
+  - first:
+      213: -4842416731805529891
+    second: zx1_modelzx 2_159
+  - first:
+      213: 1004354774148389138
+    second: zx1_modelzx 2_160
+  - first:
+      213: 8187184624581126419
+    second: zx1_modelzx 2_161
+  - first:
+      213: -4658550272697248838
+    second: zx1_modelzx 2_162
+  - first:
+      213: 831725096368313103
+    second: zx1_modelzx 2_163
+  - first:
+      213: -738465061469919749
+    second: zx1_modelzx 2_164
+  - first:
+      213: 838694782988457104
+    second: zx1_modelzx 2_165
+  - first:
+      213: 2201589513272475358
+    second: zx1_modelzx 2_166
+  - first:
+      213: -1540210195139605200
+    second: zx1_modelzx 2_167
+  - first:
+      213: 4495758215527039752
+    second: zx1_modelzx 2_168
+  - first:
+      213: -3750889829832456908
+    second: zx1_modelzx 2_169
+  - first:
+      213: 5030137766052949053
+    second: zx1_modelzx 2_170
+  - first:
+      213: -671411798177098167
+    second: zx1_modelzx 2_171
+  - first:
+      213: -8493542192741859397
+    second: zx1_modelzx 2_172
+  - first:
+      213: 873965144091924423
+    second: zx1_modelzx 2_173
+  - first:
+      213: 8088977597695623020
+    second: zx1_modelzx 2_174
+  - first:
+      213: 6053779037054371631
+    second: zx1_modelzx 2_175
+  - first:
+      213: 7619822446443032499
+    second: zx1_modelzx 2_176
+  - first:
+      213: -4335522103515576438
+    second: zx1_modelzx 2_177
+  - first:
+      213: 632453168735924358
+    second: zx1_modelzx 2_178
+  - first:
+      213: 230089797217100792
+    second: zx1_modelzx 2_179
+  - first:
+      213: -820329333609076082
+    second: zx1_modelzx 2_180
+  - first:
+      213: 2155452827293639669
+    second: zx1_modelzx 2_181
+  - first:
+      213: 8430083878378759428
+    second: zx1_modelzx 2_182
+  - first:
+      213: 2274564799935637731
+    second: zx1_modelzx 2_183
+  - first:
+      213: -6481721076756375468
+    second: zx1_modelzx 2_184
+  - first:
+      213: 4551800680355794762
+    second: zx1_modelzx 2_185
+  - first:
+      213: -8873262181645565105
+    second: zx1_modelzx 2_186
+  - first:
+      213: -3502368645090872101
+    second: zx1_modelzx 2_187
+  - first:
+      213: -94699641918982029
+    second: zx1_modelzx 2_188
+  - first:
+      213: -2255380573455322326
+    second: zx1_modelzx 2_189
+  - first:
+      213: -3070211403540732376
+    second: zx1_modelzx 2_190
+  - first:
+      213: -6941871606549399927
+    second: zx1_modelzx 2_191
+  - first:
+      213: -598521062260902048
+    second: zx1_modelzx 2_192
+  - first:
+      213: -1462660245723418266
+    second: zx1_modelzx 2_193
+  - first:
+      213: 5890014941712976621
+    second: zx1_modelzx 2_194
+  - first:
+      213: -9113614932798989512
+    second: zx1_modelzx 2_195
+  - first:
+      213: -6954501816383642730
+    second: zx1_modelzx 2_196
+  - first:
+      213: 5960153471725996948
+    second: zx1_modelzx 2_197
+  - first:
+      213: -6380375915268505709
+    second: zx1_modelzx 2_198
+  - first:
+      213: -7789419928975320562
+    second: zx1_modelzx 2_199
+  - first:
+      213: 318665896597626344
+    second: zx1_modelzx 2_200
+  - first:
+      213: 8503044437926827445
+    second: zx1_modelzx 2_201
+  - first:
+      213: 3702704651532390569
+    second: zx1_modelzx 2_202
+  - first:
+      213: -5559453004035194227
+    second: zx1_modelzx 2_203
+  - first:
+      213: 8912180223711173248
+    second: zx1_modelzx 2_204
+  - first:
+      213: -685102880556229201
+    second: zx1_modelzx 2_205
+  - first:
+      213: 1117055882752280930
+    second: zx1_modelzx 2_206
+  - first:
+      213: -2216857588492551761
+    second: zx1_modelzx 2_207
+  - first:
+      213: 6235159699563124220
+    second: zx1_modelzx 2_208
+  - first:
+      213: -5004045743210948219
+    second: zx1_modelzx 2_209
+  - first:
+      213: -8099043260211579586
+    second: zx1_modelzx 2_210
+  - first:
+      213: -3117588100765252912
+    second: zx1_modelzx 2_211
+  - first:
+      213: 3868514829489074687
+    second: zx1_modelzx 2_212
+  - first:
+      213: -1555946846758358880
+    second: zx1_modelzx 2_213
+  - first:
+      213: 1130150061917162772
+    second: zx1_modelzx 2_214
+  - first:
+      213: 4092602831149142739
+    second: zx1_modelzx 2_215
+  - first:
+      213: 4009703952874358754
+    second: zx1_modelzx 2_216
+  - first:
+      213: 3538523388657965394
+    second: zx1_modelzx 2_217
+  - first:
+      213: -1461276039548321561
+    second: zx1_modelzx 2_218
+  - first:
+      213: -7463496236463401408
+    second: zx1_modelzx 2_219
+  - first:
+      213: 9118520568759936811
+    second: zx1_modelzx 2_220
+  - first:
+      213: 6163643713906286494
+    second: zx1_modelzx 2_221
+  - first:
+      213: -3010773616583427867
+    second: zx1_modelzx 2_222
+  - first:
+      213: -3332779728031045680
+    second: zx1_modelzx 2_223
+  - first:
+      213: 3072885056062245065
+    second: zx1_modelzx 2_224
+  - first:
+      213: 1611341695452532526
+    second: zx1_modelzx 2_225
+  - first:
+      213: -9075709499514986204
+    second: zx1_modelzx 2_226
+  - first:
+      213: 6791981108997263459
+    second: zx1_modelzx 2_227
+  - first:
+      213: -461042794402243487
+    second: zx1_modelzx 2_228
+  - first:
+      213: 661390041556717284
+    second: zx1_modelzx 2_229
+  - first:
+      213: -254698512753108204
+    second: zx1_modelzx 2_230
+  - first:
+      213: 8199775179924723863
+    second: zx1_modelzx 2_231
+  - first:
+      213: 1272667606957140999
+    second: zx1_modelzx 2_232
+  - first:
+      213: -2775433113053253313
+    second: zx1_modelzx 2_233
+  - first:
+      213: 4391260819213440705
+    second: zx1_modelzx 2_234
+  - first:
+      213: 8405566198040700173
+    second: zx1_modelzx 2_235
+  - first:
+      213: -982200730394101874
+    second: zx1_modelzx 2_236
+  - first:
+      213: -7484928395825706145
+    second: zx1_modelzx 2_237
+  - first:
+      213: 5234518223392122106
+    second: zx1_modelzx 2_238
+  - first:
+      213: -7198710272540336242
+    second: zx1_modelzx 2_239
+  - first:
+      213: 6345077246063169205
+    second: zx1_modelzx 2_240
+  - first:
+      213: -1566222232710671418
+    second: zx1_modelzx 2_241
+  - first:
+      213: -7423167545132244909
+    second: zx1_modelzx 2_242
+  - first:
+      213: 4210843836004338599
+    second: zx1_modelzx 2_243
+  - first:
+      213: -2619069259953339787
+    second: zx1_modelzx 2_244
+  - first:
+      213: -4963153938117903751
+    second: zx1_modelzx 2_245
+  - first:
+      213: -1862918225479468066
+    second: zx1_modelzx 2_246
+  - first:
+      213: -1171395941581135225
+    second: zx1_modelzx 2_247
+  - first:
+      213: -749281471499298232
+    second: zx1_modelzx 2_248
+  - first:
+      213: 2209868343411582942
+    second: zx1_modelzx 2_249
+  - first:
+      213: -7887798189135746752
+    second: zx1_modelzx 2_250
+  - first:
+      213: -6589250568913709052
+    second: zx1_modelzx 2_251
+  - first:
+      213: 5380141472345551613
+    second: zx1_modelzx 2_252
+  - first:
+      213: -7160001259315900419
+    second: zx1_modelzx 2_253
+  - first:
+      213: 7374769947841701221
+    second: zx1_modelzx 2_254
+  - first:
+      213: 3238510241407927434
+    second: zx1_modelzx 2_255
+  - first:
+      213: -153245645291693477
+    second: zx1_modelzx 2_256
+  - first:
+      213: 7324691153379254774
+    second: zx1_modelzx 2_257
+  - first:
+      213: 2654902639282478055
+    second: zx1_modelzx 2_258
+  - first:
+      213: -7345482168794385515
+    second: zx1_modelzx 2_259
+  - first:
+      213: -2213522862034077420
+    second: zx1_modelzx 2_260
+  - first:
+      213: -805873270826809663
+    second: zx1_modelzx 2_261
+  - first:
+      213: -962923706587990444
+    second: zx1_modelzx 2_262
+  - first:
+      213: -7160194172453825858
+    second: zx1_modelzx 2_263
+  - first:
+      213: -7743461234350031721
+    second: zx1_modelzx 2_264
+  - first:
+      213: 1563315288308744882
+    second: zx1_modelzx 2_265
+  - first:
+      213: 6421296381422475210
+    second: zx1_modelzx 2_266
+  - first:
+      213: 8771275423765409658
+    second: zx1_modelzx 2_267
+  - first:
+      213: -8207224553853094227
+    second: zx1_modelzx 2_268
+  - first:
+      213: 3796909299880677130
+    second: zx1_modelzx 2_269
+  - first:
+      213: 6067340893248080186
+    second: zx1_modelzx 2_270
+  - first:
+      213: -6140382614350842858
+    second: zx1_modelzx 2_271
+  - first:
+      213: 5948462535015916420
+    second: zx1_modelzx 2_272
+  - first:
+      213: -5771151647417184989
+    second: zx1_modelzx 2_273
+  - first:
+      213: -1333129193907349446
+    second: zx1_modelzx 2_274
+  - first:
+      213: -5904685077775423720
+    second: zx1_modelzx 2_275
+  - first:
+      213: -7918626531393561049
+    second: zx1_modelzx 2_276
+  - first:
+      213: 7614009202446665049
+    second: zx1_modelzx 2_277
+  - first:
+      213: -4855520287556547052
+    second: zx1_modelzx 2_278
+  - first:
+      213: 7480884957026995780
+    second: zx1_modelzx 2_279
+  - first:
+      213: -3609736125199125940
+    second: zx1_modelzx 2_280
+  - first:
+      213: 1510388874557605995
+    second: zx1_modelzx 2_281
+  - first:
+      213: -273521765020723241
+    second: zx1_modelzx 2_282
+  - first:
+      213: -7880387057179111363
+    second: zx1_modelzx 2_283
+  - first:
+      213: -5415227527896765015
+    second: zx1_modelzx 2_284
+  - first:
+      213: -7108082149162355562
+    second: zx1_modelzx 2_285
+  - first:
+      213: -5032184477465092668
+    second: zx1_modelzx 2_286
+  - first:
+      213: 5335671674550164077
+    second: zx1_modelzx 2_287
+  - first:
+      213: -1828247661357337472
+    second: zx1_modelzx 2_288
+  - first:
+      213: -2344541357929369969
+    second: zx1_modelzx 2_289
+  - first:
+      213: 4108750937482176119
+    second: zx1_modelzx 2_290
+  - first:
+      213: 1227010031709511556
+    second: zx1_modelzx 2_291
+  - first:
+      213: 1573854725316270270
+    second: zx1_modelzx 2_292
+  - first:
+      213: 8947920265664289052
+    second: zx1_modelzx 2_293
+  - first:
+      213: 745851726614915334
+    second: zx1_modelzx 2_294
+  - first:
+      213: 1869136437357783032
+    second: zx1_modelzx 2_295
+  - first:
+      213: 3450134590646802345
+    second: zx1_modelzx 2_296
+  - first:
+      213: -7296365612257477312
+    second: zx1_modelzx 2_297
+  - first:
+      213: 5774862824544958310
+    second: zx1_modelzx 2_298
+  - first:
+      213: 9054108119292776056
+    second: zx1_modelzx 2_299
+  - first:
+      213: 5614814724574208943
+    second: zx1_modelzx 2_300
+  - first:
+      213: -4851606586615412280
+    second: zx1_modelzx 2_301
+  - first:
+      213: 8871479839491230735
+    second: zx1_modelzx 2_302
+  - first:
+      213: 5594287458970187164
+    second: zx1_modelzx 2_303
+  - first:
+      213: 5459717212173913578
+    second: zx1_modelzx 2_304
+  - first:
+      213: 7687792220834099985
+    second: zx1_modelzx 2_305
+  - first:
+      213: 3720807465310452897
+    second: zx1_modelzx 2_306
+  - first:
+      213: -1351926368638119736
+    second: zx1_modelzx 2_307
+  - first:
+      213: -4240039008801793945
+    second: zx1_modelzx 2_308
+  - first:
+      213: -2680211628013220078
+    second: zx1_modelzx 2_309
+  - first:
+      213: -7895091859752647283
+    second: zx1_modelzx 2_310
+  - first:
+      213: 3789223096567512258
+    second: zx1_modelzx 2_311
+  - first:
+      213: 5400651424557914351
+    second: zx1_modelzx 2_312
+  - first:
+      213: 7078372710527728123
+    second: zx1_modelzx 2_313
+  - first:
+      213: 2013611986425732612
+    second: zx1_modelzx 2_314
+  - first:
+      213: -5913529571690591635
+    second: zx1_modelzx 2_315
+  - first:
+      213: 6165399021599313264
+    second: zx1_modelzx 2_316
+  - first:
+      213: 8845477202080149599
+    second: zx1_modelzx 2_317
+  - first:
+      213: -1944608598110739192
+    second: zx1_modelzx 2_318
+  - first:
+      213: -7600606368971805451
+    second: zx1_modelzx 2_319
+  - first:
+      213: 5632885617971579492
+    second: zx1_modelzx 2_320
+  - first:
+      213: -6688731819961823012
+    second: zx1_modelzx 2_321
+  - first:
+      213: -5537718749047145575
+    second: zx1_modelzx 2_322
+  - first:
+      213: -5770709346072292411
+    second: zx1_modelzx 2_323
+  - first:
+      213: -3698564428734394257
+    second: zx1_modelzx 2_324
+  - first:
+      213: -2826637452690312098
+    second: zx1_modelzx 2_325
+  - first:
+      213: -1518068128430678458
+    second: zx1_modelzx 2_326
+  - first:
+      213: 438069769567922620
+    second: zx1_modelzx 2_327
+  - first:
+      213: 1390137795741912871
+    second: zx1_modelzx 2_328
+  - first:
+      213: -3968230993017968128
+    second: zx1_modelzx 2_329
+  - first:
+      213: 1107963027272233062
+    second: zx1_modelzx 2_330
+  - first:
+      213: 3561171032847697589
+    second: zx1_modelzx 2_331
+  - first:
+      213: -5437440277915111344
+    second: zx1_modelzx 2_332
+  - first:
+      213: -7606867025951612581
+    second: zx1_modelzx 2_333
+  - first:
+      213: -1330691042522554572
+    second: zx1_modelzx 2_334
+  - first:
+      213: 4799980474955378069
+    second: zx1_modelzx 2_335
+  - first:
+      213: 349258228223739575
+    second: zx1_modelzx 2_336
+  - first:
+      213: 5629450567109817876
+    second: zx1_modelzx 2_337
+  - first:
+      213: -9063050539768959441
+    second: zx1_modelzx 2_338
+  - first:
+      213: -7421102633317721250
+    second: zx1_modelzx 2_339
+  - first:
+      213: -6647500066720915904
+    second: zx1_modelzx 2_340
+  - first:
+      213: 8996207645420966185
+    second: zx1_modelzx 2_341
+  - first:
+      213: -6863155776411862999
+    second: zx1_modelzx 2_342
+  - first:
+      213: 1625532442007106421
+    second: zx1_modelzx 2_343
+  - first:
+      213: 3887606445153874316
+    second: zx1_modelzx 2_344
+  - first:
+      213: 650732697332774097
+    second: zx1_modelzx 2_345
+  - first:
+      213: -5282816640868935231
+    second: zx1_modelzx 2_346
+  - first:
+      213: 6572467309732047653
+    second: zx1_modelzx 2_347
+  - first:
+      213: 8213723299413709334
+    second: zx1_modelzx 2_348
+  - first:
+      213: -150198946701343586
+    second: zx1_modelzx 2_349
+  - first:
+      213: 3928968794952855280
+    second: zx1_modelzx 2_350
+  - first:
+      213: 5144014564358766880
+    second: zx1_modelzx 2_351
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

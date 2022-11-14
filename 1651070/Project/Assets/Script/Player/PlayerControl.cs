@@ -63,6 +63,8 @@ public class PlayerControl : MonoBehaviour
     private float currentinviframe;
     private float countframe;
     float countframe2;
+
+    float shotHolding = 0.0f;
     void Awake()
     {
         currentinviframe = inviframeduration;
@@ -121,6 +123,7 @@ public class PlayerControl : MonoBehaviour
         {
             Debug.LogError("No SoundManager found in Scene!!!!!");
         }
+        _animator.SetBool("Shoot",false);
     }
     void MoveCalculation()
     {
@@ -556,15 +559,107 @@ public class PlayerControl : MonoBehaviour
             gravity = baseGravity;
         }
 
+        if(Input.GetButtonDown("Fire3")){
+            _animator.SetBool("Shoot",true);
+            if(_animator.GetCurrentAnimatorStateInfo(0).IsName("Run") || Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.LeftArrow)){
+                 _animator.ResetTrigger("idleShoot");
+                _animator.Play("RunShoot");
+            } else {
+                _animator.Play("idleShoot");
+                 _animator.ResetTrigger("RunShoot");
+            }
+            
+            Debug.Log("Should shoot!");
+            Attack();
+        }
+        if(Input.GetButton("Fire3")){
+            _animator.ResetTrigger("idleShoot");
+            _animator.ResetTrigger("RunShoot");
+            shotHolding += Time.deltaTime;
+            Debug.Log("Charging " + shotHolding);
+        }
+         if(Input.GetButtonUp("Fire3")){
+            _animator.SetBool("Shoot",false);
+            
+            if(shotHolding > 0.4){
+                 Attack();
+            } else {
+                _animator.ResetTrigger("idleShoot");
+                _animator.ResetTrigger("RunShoot");
+            }
+            shotHolding = 0.0f;
+
+        }
+
+
         MoveCalculation();
 
     }
 
+    bool IsRunning() {
+        return _animator.GetCurrentAnimatorStateInfo(0).IsName("Run") || Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.LeftArrow);
+    }
+
+    int ShotLevel() {
+        if(shotHolding > 0.5){
+            if(shotHolding > 1.0) {
+                return 2;
+            }
+            return 1;
+        }
+        return 0;
+    }
 
 
+     private void Attack()
+    {
+        _animator.SetBool("Shoot",true);
+        if(IsRunning()) {
+            _animator.Play("RunShoot");
+           
+        } else {
+            _animator.Play("idleShoot");
+        }
+        Debug.Log("Shot level " + ShotLevel() );
+        if(ShotLevel() == 0){
+            soundManager.PlaySound("Shoot");
+            Transform aim = transform.Find("Aim");
+            var objectPooler = ObjectPooler.Instance;
+            Debug.Log(normalizedHorizontalSpeed);
+            Quaternion rotation  = normalizedHorizontalSpeed < 0 ? aim.rotation : MirrorOnXAxis(aim.rotation);
+            GameObject Projectile = objectPooler.SpawnFromPool("PlayerShot", aim.position, aim.rotation);
+            Projectile.transform.localScale = -transform.localScale;
+        } else if(ShotLevel() == 1){
+            soundManager.PlaySound("Shoot");
+            Transform aim = transform.Find("Aim");
+            var objectPooler = ObjectPooler.Instance;
+            Debug.Log(normalizedHorizontalSpeed);
+            Quaternion rotation  = normalizedHorizontalSpeed < 0 ? aim.rotation : MirrorOnXAxis(aim.rotation);
+            GameObject Projectile = objectPooler.SpawnFromPool("PlayerShotHalfCharged", aim.position, aim.rotation);
+            Projectile.transform.localScale = -transform.localScale;
 
+        } else if (ShotLevel() == 2){
+            soundManager.PlaySound("Shoot");
+            Transform aim = transform.Find("Aim");
+            var objectPooler = ObjectPooler.Instance;
+            Debug.Log(normalizedHorizontalSpeed);
+            Quaternion rotation  = normalizedHorizontalSpeed < 0 ? aim.rotation : MirrorOnXAxis(aim.rotation);
+            GameObject Projectile = objectPooler.SpawnFromPool("PlayerShotFullyCharged", aim.position, aim.rotation);
+            Projectile.transform.localScale = -transform.localScale;
+        }
+        _animator.SetBool("Shoot",false);
+        
+       // Projectile.transform.rotation = MirrorOnXAxis(Projectile.transform.rotation);
+    }
 
-
+    public static Quaternion MirrorOnXAxis(Quaternion q) 
+    {
+        //q.x = -q.x;
+        //q.y = -q.y;
+        q.z = -q.z;
+        q.w = -q.w;
+        return q;
+    }
     void endwallslide()
     {
         wallsliding = false;

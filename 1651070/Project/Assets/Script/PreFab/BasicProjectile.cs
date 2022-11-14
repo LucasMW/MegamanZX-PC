@@ -9,11 +9,20 @@ public class BasicProjectile : MonoBehaviour, IPooledObject
     public float distance;
     public LayerMask Ignore;
     private bool moving = true;
+    public bool ignorePlayer;
+    public float AtkPower;
+    private SoundManager soundManager;
     // Update is called once per frame
     public void OnObjectSpawn()
     {
         moving = true;
         Invoke("DestroyProjectile", lifeTime);
+        soundManager = SoundManager._instance;
+        if (soundManager == null)
+        {
+            Debug.LogError("No SoundManager found in Scene!!!!!");
+        }
+       
     }
     void Update()
     {
@@ -23,7 +32,7 @@ public class BasicProjectile : MonoBehaviour, IPooledObject
             if (hit.collider.CompareTag("Ground"))
             {
                 GetComponent<Animator>().SetBool("GroundHit", true);
-            }
+            } 
         }
         if(moving)
         {
@@ -37,10 +46,27 @@ public class BasicProjectile : MonoBehaviour, IPooledObject
     }
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if ((!ignorePlayer && other.CompareTag("Player")) || other.CompareTag("Enemy") )
         {
-            DestroyProjectile();
+            
+            if(other.CompareTag("Enemy")){
+                // other.gameObject.transform.parent.gameObject.GetComponent<EnemyStatManager>().lasthitposition = gameObject.transform.parent.localScale;
+                other.gameObject.transform.parent.gameObject.GetComponent<EnemyStatManager>().hurt = true;
+                other.gameObject.transform.parent.gameObject.GetComponent<EnemyStatManager>().currentHP -= Damage();
+                Debug.Log(other.gameObject.transform.parent.gameObject.GetComponent<EnemyStatManager>().currentHP );
+                soundManager.PlaySound("ShootHit");
+                if(other.gameObject.transform.parent.gameObject.GetComponent<EnemyStatManager>().currentHP > 0){
+                    DestroyProjectile();
+                }
+            }
+            if(other.CompareTag("Player")){
+                DestroyProjectile();
+            }
+
         }
+    }
+    float Damage(){
+        return AtkPower;
     }
     void OnCollisionEnter2D(Collider2D other)
     {
